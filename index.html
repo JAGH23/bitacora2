@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <img src="imagenes/logo 2.jpg" alt="Logo">
+            </div>
+        </header>
+        <nav>
+            <a href="index.html">Position</a>
+            <a href="display.html">Display</a>
+            <a href="css3.html">CSS3</a>
+            <a href="animacion.html">Animación</a>
+            <a href="refavan.html">Referencias avanzadas</a>
+        </nav>
+        <section>
+            <div class="seccion-arriba">
+                <h1>Propiedad position</h1>
+            </div>
+            <div class="seccion-izq">
+                <h2>Ideas principales</h2>
+                <div class="texto3">
+                    <p>
+                        ¿Qué es la propiedad position?
+                    </p>
+                    <p>
+                        Position:static;
+                    </p>
+                    <p>
+                        Position:relative;
+                    </p>
+                    <p>
+                        Position:absolute;
+                    </p>
+                    <p>
+                        Position:fixed;
+                    </p>
+                    <p>
+                        Position:sticky;
+                    </p>
+                </div>
+            </div>
+            <div class="seccion-der">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+                    <p>
+                        Especifica el tipo de método de posicionamiento utilizado para un elemento. Hay 5 valores de
+                        posición diferentes y se poscionan utilizando las propiedades top, bottom, left y right
+                    </p>
+                    <p>
+                        Un elemento HTML con position static se queda donde
+                        está, sin moverse a ningún lado. No se puede mover con top, bottom, left, right y z-index y
+                        solo sigue el orden natural de la página.
+                    </p>
+                    <p>
+                        Al usar position relative en un elemento, primero se queda donde le toca estar (como con
+                        static), pero se puede mover con top, bottom, left, right y z-index. Aunque el elemento se
+                        mueva, su espacio original sigue estando ahí, y los otros elementos no ocupan su lugar.
+                    </p>
+                    <p>
+                        Si se usa position absolute, se puede colocar un elemento en un lugar exacto de la página,
+                        moviéndolo con top, bottom, left, right y z-index. Pero este movimiento depende del contenedor
+                        en el que
+                        está, si ese contenedor tiene una posición diferente a static. Al mover el elemento, los demás
+                        elementos en la página actúan como si ese elemento no estuviera ahí, provocando solapamientos.
+                    </p>
+                    <p>
+                        Un elemento con position fixed siempre se quedará en el mismo lugar en la pantalla,
+                        aunque se haga scroll en la página. Puedes moverlo con top, bottom, left, o right para colocarlo
+                        donde sea. Además, no ocupa su lugar normal en la página, así que los demás elementos actúan
+                        como si no estuviera ahí.
+                    </p>
+                    <p>
+                        Un elemento con position sticky empieza comportándose como si fuera relative, quedándose en su
+                        lugar normal. Pero al hacer scroll y llegar a un punto específico, el elemento "se pega" a
+                        la pantalla, como si fuera fixed, y se queda ahí mientras sigues desplazándote.
+                    </p>
+                </div>
+                <a href="imagenes/position.jpg" target="_blank"><img src="imagenes/position.jpg" alt="Propiedad position"></a>
+            </div>
+            <div class="seccion-abajo">
+                <h2>Resumen</h2>
+                <p class="texto4">
+                    Se explicó que es la propiedad position, sus 5 valores y cómo funcionan, además de las propiedades
+                    para controlarlas.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

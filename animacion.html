@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bitácora</title>
+    <link rel="stylesheet" href="CSS/estilo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <header>
+            <div class="logo">
+                <img src="imagenes/logo 2.jpg" alt="Logo">
+            </div>
+        </header>
+        <nav>
+            <a href="index.html">Position</a>
+            <a href="display.html">Display</a>
+            <a href="css3.html">CSS3</a>
+            <a href="animacion.html">Animación</a>
+            <a href="refavan.html">Referencias avanzadas</a>
+        </nav>
+        <section>
+            <div class="seccion-arriba">
+                <h1>Animación</h1>
+            </div>
+            <div class="seccion-izq">
+                <h2>Ideas principales</h2>
+                <div class="texto3">
+                    <p>
+                        ¿Cómo funciona?
+                    </p>
+                    <p>
+                        Sintaxis
+                    </p>
+                    <p>
+                        animation-duration
+                    </p>
+                    <p>
+                        animation-iteration-count
+                    </p>
+                    <p>
+                        animation-delay
+                    </p>
+                    <p>
+                        animation-play-state
+                    </p>
+                    <p>
+                        animation-timing-function
+                    </p>
+                    <p>
+                        animation-fill-mode
+                    </p>
+                    <p>
+                        animation-direction
+                    </p>
+                </div>
+            </div>
+            <div class="seccion-der">
+                <h2>Apuntes</h2>
+                <div class="texto2">
+                    <p>
+                        CSS permite animar elementos HTML sin necesidad de usar JavaScript.
+                        Cuando se especifica estilos CSS dentro de la regla @keyframes, la animación cambiará del estilo
+                        actual al estilo nuevo.
+                    </p>
+                    <p>
+                        Pimero se escribe la regla @keyframes y se le da un nombre, el estilo dentro de "from" es el
+                        estilo inicial y el estilo dentro de "to" es el estilo final.
+                        Dentro de la regla también se pueden utilizar porcentajes, yendo desde el 0% hasta el 100%.
+                        Para que esta funcione, se debe vincular la animación a un elemento.
+                        Hay 2 propiedades obligatorias, animation name y animation-duration.
+                    </p>
+                    <p>
+                        Animation-duration especifica el tiempo de duración de la animación para que complete un ciclo,
+                        si no se especifica esto, el valor predeterminado es 0 y nunca se reproducirá.
+                    </p>
+                    <p>
+                        Animation-iteration-count especifica el numero de veces que se reporoduce la animación.
+                    </p>
+                    <p>
+                        Animation-delay especifica un retraso para que inicie una animación y se expresa en segundos,
+                        también se pueden utilizar unidades negativas.
+                    </p>
+                    <p>
+                        Animation-play-state especifica si la animación se está ejecutando (running) o está en pausa
+                        (pause).
+                    </p>
+                    <p>
+                        Animation-timing-function especifica la curva de velocidad de la animación. Tiene valores
+                        linear, ease, ease-in, ease-out, ease-in-out, cubic-bezier.
+                    </p>
+                    <p>
+                        Animation-fill-mode especifica un estilo para el elemento cuando la animación no se está
+                        reproduciendo (antes de que comience, después de que termine o ambos). Tiene valores none,
+                        forwards, backwards y both.
+                    </p>
+                    <p>
+                        Animation-direction especifica la dirección en la que se reproduce la animación. Tiene valores
+                        normal, reverse, alternate y alternate-reverse.
+                        Alternate y alternate-reverse necesitan más de 1 ciclo para funcionar.
+                    </p>
+                </div>
+                <a href="imagenes/Animacion.png" target="_blank"><img src="imagenes/Animacion.png" alt="Estructura de animacion"></a>
+            </div>
+            <div class="seccion-abajo">
+                <h2>Resumen</h2>
+                <p class="texto4">
+                    Se explicó cómo funciona la animación, la sintaxis, cómo funcionan las diferentes propiedades y sus
+                    efectos en la regla @keyframes
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
